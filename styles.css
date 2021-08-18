@@ -69,13 +69,6 @@ h2{
   text-align: left;
   padding: 5px;
 }
-a.fill-div {
-  text-align: center;
-  display: block;
-  height: 100%;
-  width: 100%;
-  text-decoration: none;
-}
 span {
   font-style: normal;
 }
@@ -95,6 +88,13 @@ span {
   min-width: 230px;
   max-width: 250px;
   margin-right: 20px;
+}
+a.fill-div {
+  text-align: center;
+  display: block;
+  min-height: 100px;
+  width: 100%;
+  text-decoration: none;
 }
 .fotoentrada{
   background: url(images/entrada.png) no-repeat ;
