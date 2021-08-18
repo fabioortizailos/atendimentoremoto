@@ -51,13 +51,16 @@ h2{
   font-weight: bold;
 }
 #credifoz{
-  background: url(images/Credifoz.webp) no-repeat center;
+  background: url(images/credifoz.png) no-repeat center;
+  background-size: contain;
 }
 #unilos{
-  background: url(images/Unilos.webp) no-repeat center;
+  background: url(images/unilos.png) no-repeat center;
+  background-size: contain;
 }
 #viacredi{
-  background: url(images/Viacredi.webp) no-repeat center;
+  background: url(images/viacredi.png) no-repeat center;
+  background-size: contain;
 }
 .textoapoio{
   font-style: italic; 
