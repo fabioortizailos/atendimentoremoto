@@ -28,3 +28,7 @@
         color: var(--secondary);
         border-bottom: solid 2px var(--secondary);
     }
+    
+    .modal-title {
+        font-family: 'Exo 2', sans-serif;
+    }
