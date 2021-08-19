@@ -1,29 +1,33 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
+html,
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #fff;
 }
+
 #bannerazul {
-  min-height: 30px;
-  min-width: max-content;
-  background-color: #165c7d;
-  margin: auto;
-}
-main {
-  margin: auto;
-  /*width: 50%;*/
-  padding: 20px;
+    min-height: 30px;
+    min-width: max-content;
+    background-color: #165c7d;
+    margin: auto;
 }
 
-main > h1 {
-  text-align: center;
-  font-size: 4vw;
+main {
+    margin: auto;
+    /*width: 50%;*/
+    padding: 20px;
 }
+
+main>h1 {
+    text-align: center;
+    font-size: 4vw;
+}
+
 img {
     border: 0px;
     max-width: 100%;
@@ -37,70 +41,85 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-h2{
-  margin-left: 1.33em;
-  font-size: 1.8vw;
-  text-align: left;
+
+h2 {
+    margin-left: 1.33em;
+    font-size: 1.8vw;
+    text-align: left;
 }
-.tituloazul{
-  color: #165c7d;
-  font-weight: bold;
+
+.tituloazul {
+    color: #165c7d;
+    font-weight: bold;
 }
-.titulolaranja{
-  color:#FFA300;
-  font-weight: bold;
+
+.titulolaranja {
+    color: #FFA300;
+    font-weight: bold;
 }
-#credifoz{
-  background: url(images/credifoz.png) no-repeat center;
-  background-size: contain;
+
+#credifoz {
+    background: url(images/credifoz.png) no-repeat center;
+    background-size: contain;
 }
-#unilos{
-  background: url(images/unilos.png) no-repeat center;
-  background-size: contain;
+
+#unilos {
+    background: url(images/unilos.png) no-repeat center;
+    background-size: contain;
 }
-#viacredi{
-  background: url(images/viacredi.png) no-repeat center;
-  background-size: contain;
+
+#viacredi {
+    background: url(images/viacredi.png) no-repeat center;
+    background-size: contain;
 }
-.textoapoio{
-  font-style: italic; 
-  max-width: 60%;
-  left: 0%;
-  text-align: left;
-  padding: 5px;
+
+.textoapoio {
+    font-style: italic;
+    max-width: 60%;
+    left: 0%;
+    text-align: left;
+    padding: 5px;
 }
+
 span {
-  font-style: normal;
+    font-style: normal;
 }
-.negrito{
-  font-weight: bold   ;
+
+.negrito {
+    font-weight: bold;
 }
-.container{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
 }
-.item{
-  border: solid 1px  #000;
-  min-height: 100px;
-  border-radius: 10px;
-  min-width: 230px;
-  max-width: 250px;
-  margin-right: 20px;
+
+.item {
+    border: solid 1px #000;
+    min-height: 100px;
+    border-radius: 10px;
+    min-width: 230px;
+    max-width: 250px;
+    margin-right: 20px;
 }
+
 a.fill-div {
-  text-align: center;
-  display: block;
-  min-height: 100px;
-  width: 100%;
-  text-decoration: none;
+    text-align: center;
+    display: block;
+    min-height: 100px;
+    width: 100%;
+    text-decoration: none;
 }
-.fotoentrada{
-  background: url(images/entrada.png) no-repeat ;
-  min-height: 260px;
-  min-width: 370px;
+
+.fotoentrada {
+    background: url(images/entrada.png) no-repeat;
+    min-height: 260px;
+    min-width: 370px;
 }
+
+
 /*.footer {
   margin: auto;
   padding: 20px;
@@ -113,97 +132,100 @@ a.fill-div {
   position: fixed;
   width: 100%;
 }*/
-.footer-copyright{
-  margin: auto;
-  width: 50%;
-  float: right;
-  font-family: 'Open Sans', sans-serif;
-} 
-@media only screen and (max-width : 769px) /*celular*/
-{ 
-  footer {
+
+.footer-copyright {
     margin: auto;
-    padding: 5px;
-    background-color: #073C55;
-    color: #fff;
-    font-size: 1.8vw;
-    bottom: 0;
-    left: 0;
-    height: 50px;
-    position: relative;
-    width: 100%;
-  }
-  h2{
-    margin-left:0;
-    font-size: 1.1em;
-  }
-  .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  #elementograficoDireita{
-    max-width: 6em;
+    width: 50%;
     float: right;
-    margin-left: -336px;
-    position: absolute;
-    right: 0;
-  }
-  .fotoentrada{
-    padding: 10px 0;
-  }
-  .item{
-    border: solid 1px  #000;
-    min-height: 80px;
-    border-radius: 10px;
-    min-width: 190px;
-    max-width: 190px;
-    margin: 5px 20px;
-  }
-  a.fill-div {
-    text-align: center;
-    display: block;
-    min-height: 80px;
-    width: 100%;
-    text-decoration: none;
-  }
-  .textoapoio{
-    font-style: italic; 
-    max-width: 100%;
-    left: 0%;
-    text-align: left;
-    padding: 5px;
-  }
-  #content-core {
-    text-align: center;
-    max-width: 100%
-  }
+    font-family: 'Open Sans', sans-serif;
 }
 
-@media only screen and (min-width : 769px)
-{ 
-  footer {
-    margin: auto;
-    padding: 10px;
-    margin-top: 10px;
-    background-color: #073C55;
-    color: #fff;
-    font-size: 1em;
-    bottom: 0;
-    left: 0;
-    height: 60px;
-    position: relative;
-    width: 100%;
-  }
-  #elementograficoDireita{
-    max-width: 336px;
-    float: right;
-    margin-left: -336px;
-    position: absolute;
-    right: 0;
-  }
-  .fotoentrada{
-    padding: 10px;
-  }
+@media only screen and (max-width: 769px)
+/*celular*/
+
+{
+    footer {
+        margin: auto;
+        padding: 5px;
+        background-color: #073C55;
+        color: #fff;
+        font-size: 1.8vw;
+        bottom: 0;
+        left: 0;
+        height: 50px;
+        position: relative;
+        width: 100%;
+    }
+    h2 {
+        margin-left: 0;
+        font-size: 1.1em;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #elementograficoDireita {
+        max-width: 6em;
+        float: right;
+        margin-left: -336px;
+        position: absolute;
+        right: 0;
+    }
+    .fotoentrada {
+        padding: 10px 0;
+    }
+    .item {
+        border: solid 1px #000;
+        min-height: 80px;
+        border-radius: 10px;
+        min-width: 190px;
+        max-width: 190px;
+        margin: 5px 20px;
+    }
+    a.fill-div {
+        text-align: center;
+        display: block;
+        min-height: 80px;
+        width: 100%;
+        text-decoration: none;
+    }
+    .textoapoio {
+        font-style: italic;
+        max-width: 100%;
+        left: 0%;
+        text-align: left;
+        padding: 5px;
+    }
+    #content-core {
+        text-align: center;
+        max-width: 100%
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    footer {
+        margin: auto;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: #073C55;
+        color: #fff;
+        font-size: 1em;
+        bottom: 0;
+        left: 0;
+        height: 60px;
+        position: relative;
+        width: 100%;
+    }
+    #elementograficoDireita {
+        max-width: 336px;
+        float: right;
+        margin-left: -336px;
+        position: absolute;
+        right: 0;
+    }
+    .fotoentrada {
+        padding: 10px;
+    }
 }
