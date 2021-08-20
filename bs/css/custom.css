@@ -32,3 +32,44 @@
     .modal-title {
         font-family: 'Exo 2', sans-serif;
     }
+    
+    .btn-primary {
+        background-color: transparent;
+        border-color: transparent;
+    }
+    
+    .btn-primary:hover {
+        color: var(--secondary);
+        background-color: transparent;
+        border-color: transparent;
+    }
+    
+    .btn-check:focus+.btn-primary,
+    .btn-primary:focus {
+        color: #fff;
+        background-color: transparent;
+        border-color: transparent;
+        box-shadow: 0 0 0 0;
+    }
+    
+    .btn-check:active+.btn-primary,
+    .btn-check:checked+.btn-primary,
+    .btn-primary.active,
+    .btn-primary:active,
+    .show>.btn-primary.dropdown-toggle {
+        color: #fff;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    
+    .btn-check:active+.btn-primary:focus,
+    .btn-check:checked+.btn-primary:focus,
+    .btn-primary.active:focus,
+    .btn-primary:active:focus,
+    .show>.btn-primary.dropdown-toggle:focus {
+        box-shadow: 0 0 0 0;
+    }
+    
+    .fs-7 {
+        font-size: .9em;
+    }
