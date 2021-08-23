@@ -20,6 +20,11 @@
     --bs-cyan: #0dcaf0;
     --bs-white: #fff;
     --bs-gray: #6c757d;
+    --goldailos: #886b25;
+    --azulclaroailos: #00a9ce;
+    --azulmedioailos: #007d8a;
+    --verdeclaroailos: #00b140;
+    --verdeescuroailos: #007041;
     --bs-gray-dark: #343a40;
     --bs-gray-100: #f8f9fa;
     --bs-gray-200: #e9ecef;
@@ -7429,6 +7434,10 @@ fieldset:disabled .btn {
     width: 25%!important
 }
 
+.w-35 {
+    width: 35%!important
+}
+
 .w-50 {
     width: 50%!important
 }
@@ -8204,6 +8213,11 @@ fieldset:disabled .btn {
 .text-secondary {
     --bs-text-opacity: 1;
     color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity))!important
+}
+
+.text-verdeescuroailos {
+    --bs-text-opacity: 1;
+    color: rgba(var(--verdeescuroailos), var(--bs-text-opacity))!important
 }
 
 .text-success {

@@ -82,6 +82,12 @@
         font-size: .9em;
     }
     
+    img#bordaAilos {
+        border-bottom: var(--verdeclaroailos) solid 20px;
+        border-bottom-left-radius: 30px;
+        padding: 0 !important;
+    }
+    
     @media (min-width: 768px) {
         #blocos .col-md-6 {
             width: auto;
