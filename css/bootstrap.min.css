@@ -54,6 +54,7 @@
     --bs-white-rgb: 255, 255, 255;
     --bs-black-rgb: 0, 0, 0;
     --bs-body-rgb: 33, 37, 41;
+    --bs-verdeescuroailos-rgb: 0, 112, 65;
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -7251,6 +7252,10 @@ fieldset:disabled .btn {
 
 .shadow-none {
     box-shadow: none!important
+}
+
+.shadow-primary {
+    box-shadow: 0 .5rem 0 rgba(var(--bs-verdeescuroailos-rgb))!important
 }
 
 .position-static {
